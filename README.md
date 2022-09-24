@@ -8,19 +8,6 @@ Site criado para a disciplina de Tecnologias Web.
 ![img](/imgs/Trabalho1_paginas_de_videos.jpg)
 
  - O layout serve como base para desenhar todas as seções do site.
- - O JP alterou
-////////////////////////////////////////////////////////////////
-
-
-        PAZ NOS ESTÁDIOS!!!!!!!!!!!!!!!!!
-
-
-///////////////////////////////////////////////////////////////
 
 
 git@github.com:JonasFortes12/Skate_website.git
-<<<<<<< HEAD
-isac - check
-=======
-iris alterou
->>>>>>> 9945aad (alteração teste)
