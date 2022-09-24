@@ -19,4 +19,8 @@ Site criado para a disciplina de Tecnologias Web.
 
 
 git@github.com:JonasFortes12/Skate_website.git
+<<<<<<< HEAD
 isac - check
+=======
+iris alterou
+>>>>>>> 9945aad (alteração teste)
