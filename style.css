@@ -1,7 +1,7 @@
 .flex-container {
     display: flex;
-    background-color: DodgerBlue;
     flex-direction: row;
+    justify-content: center;
 }
 
 div#lancamentos div {
@@ -10,3 +10,26 @@ div#lancamentos div {
     padding: 20px;
     font-size: 30px;
 }
+
+
+/* Parte 03 ------------*/
+
+#part3 div {
+    height: 500px;
+    width: 40vw;
+
+}
+
+#part3-title {
+    text-align: center;
+}
+
+
+
+#part3-descric {
+    padding-left: 20px;
+
+    /* background-color: beige; */
+}
+
+/* --------------- */
