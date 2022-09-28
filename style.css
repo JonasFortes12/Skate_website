@@ -282,12 +282,6 @@ div#container-part06-2-1 {
     border: 10px solid aquamarine;
 }
 
-div#container-part06- { /*foi necessário reescrever a part05 para se adequar às necessidades; se conseguir achar uma forma melhor, pode mudar*/
-    display:flex;
-    align-items: center;
-    flex-direction: column;
-}
-
 div#container-part06-3 {
     height: 80vh;
     width: 25vw;
