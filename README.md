@@ -10,4 +10,6 @@ Site criado para a disciplina de Tecnologias Web.
  - O layout serve como base para desenhar todas as seções do site.
 
 
+
+
 git@github.com:JonasFortes12/Skate_website.git

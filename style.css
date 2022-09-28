@@ -1,0 +1,125 @@
+body {
+    font-size: 20px;
+}
+
+p {
+    font-style: normal;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 900;
+    font-size: 12px;
+}
+.container-flex {
+    display: flex;
+    /* position: relative; */
+    /* height: 100%; */
+    width: 97vw;
+    border: 10px solid black;
+}
+
+/* --------------------------------------------------JP e IRIS forever------------------------------------------------------------- */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* --------------------------------------------------JONAS e ISAC forever------------------------------------------------------------- */
+
+div#container-part03-video {
+    height: 45vh;
+    width: 60vw;
+    background-color: aquamarine;
+    padding: 10px;
+}
+#container-part03-video iframe {
+    height: 100%;
+    width: 100%;
+}
+
+div#container-part03-desc {
+    height:45vh;
+    width: 40vw;
+    padding: 10px;
+    background-color: blueviolet;
+}
+
+
+.container3a {
+    height: 92vh;
+    width: 45vw;
+    border: 10px solid aqua;
+    margin-left: 3%;
+}
+
+.container4 {
+    display: flex;
+    position: relative;
+    height: 100%;
+    width: 97vw;
+    border: 10px solid black;
+    margin-top: 1px;
+    justify-content: flex-end;
+}
+
+.container5 {
+    height: 70vh;
+    width: 97vw;
+    border: 10px solid black;
+    margin-top: 1px;
+}
+
+.container5a {
+    height: 10%;
+    width: 55%;
+    border: 10px solid aqua;
+    margin-top: 10px;
+    margin-left: 22%;
+}
+
+.container6 {
+    display: flex;
+    position: relative;
+    height: 75vh;
+    width: 97vw;
+    border: 10px solid black;
+    margin-top: 1px;
+    justify-content: space-between;
+}
+
+.container6a {
+    height: 93%;
+    width: 25%;
+    border: 10px solid aqua;
+    margin-top: 8px;
+}
+
+.container6b {
+    height: 93%;
+    width: 45%;
+    border: 10px solid antiquewhite;
+    margin-top: 8px;
+    display: flex;
+    position: relative;
+    align-items: center;
+    flex-direction: column;
+}
+
+.container6c {
+    height: 30%;
+    width: 90%;
+    border: 10px solid antiquewhite;
+    margin-top: 8px;
+}
