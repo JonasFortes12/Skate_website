@@ -23,11 +23,14 @@ p {
 
 .container-flex {
     display: flex;
-    /* position: relative; */
+    position: relative; 
     /* height: 100%; */
-    width: 97vw;
-    border: 10px solid black;
+    width: 98%;
+    /* border: 10px solid black; */
+    margin: 1%;
 }
+
+
 
 /* --------------------------------------------------JP e IRIS forever------------------------------------------------------------- */
 
@@ -188,14 +191,6 @@ footer {
 
 /* --------------------------------------------------JONAS e ISAC forever------------------------------------------------------------- */
 
-.container-flex {
-    display: flex;
-    position: relative; 
-    /*ight: ;*/ 
-    width: 98%;
-    border: 10px solid black;
-}
-
 div#container-part03-video {
     height: 65vh;
     width: 60vw;
@@ -216,19 +211,38 @@ div#container-part03-desc {
 }
 
 div#container-part04-novidades {
-    height: 75vh;
+    height: fit-content;
     width: 60vw;
     padding: 10px;
-    border: 10px solid aquamarine;
-    margin: 5px;
+    justify-content: center;
+    align-items: center;
+    margin: 5%;
+    margin-top: 1%;
+}
+
+div#container-part04-novidades-1 div,
+div#container-part04-novidades-2 div, 
+div#container-part04-novidades-3 div {
+  margin-top: 1%;
+}
+
+div#container-part04-novidades-1 img,
+div#container-part04-novidades-2 img,
+div#container-part04-novidades-3 img{
+  height: 15%;
+  width: 15%;
+  padding: 1%;
+}
+hr.solid {
+  border-top: 3px solid #bbb;
 }
 
 div#container-part04-propagandas {
-    height: 75vh;
-    width: 30vw;
+    height: fit-content;
+    width: fit-content;
     padding: 10px;
-    border: 10px solid blueviolet;
     margin: 5px;
+    margin-top: 2%;
 }
 
 #container-part05 { /*foi necessário reescrever a part05 para se adequar às necessidades; se conseguir achar uma forma melhor, pode mudar*/
@@ -240,14 +254,13 @@ div#container-part04-propagandas {
 div#container-part05-favoritos{
     height: 10vh;
     width: 90vw;
-    border: 10px solid aquamarine;
+
     margin: 5px;
 }
 
 div#container-part06-1 {
     height: 80vh;
     width: 25vw;
-    border: 10px solid aquamarine;
 }
 
 #container-part06-2 { /*mesma lógica do container 5*/
@@ -261,13 +274,13 @@ div#container-part06-2-1 {
     height: 22vh;
     width: 50vw;
     margin: 10px;
-    border: 10px solid aquamarine;
+
 }
 
 div#container-part06-3 {
     height: 80vh;
     width: 25vw;
-    border: 10px solid aquamarine;
+
 }
 
 div#container-part07 {
