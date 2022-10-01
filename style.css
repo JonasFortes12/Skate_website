@@ -245,18 +245,27 @@ div#container-part04-propagandas {
     margin-top: 2%;
 }
 
-#container-part05 { /*foi necessário reescrever a part05 para se adequar às necessidades; se conseguir achar uma forma melhor, pode mudar*/
+
+
+
+#container-part05 {
     display:flex;
     align-items: center;
     flex-direction: column;
+    height: 30%;
+    background-color: bisque;
 }
 
 div#container-part05-favoritos{
     height: 10vh;
     width: 90vw;
-
     margin: 5px;
 }
+
+
+
+
+
 
 div#container-part06-1 {
     height: 80vh;
