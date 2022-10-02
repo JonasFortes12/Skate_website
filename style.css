@@ -311,7 +311,74 @@ div#container-part06-3 {
 
 }
 
+
+
 div#container-part07 {
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
   height: 90vh;
   width: 96vw;
+}
+
+div#container-part07 form {
+  display: flex;
+  flex-direction: column;
+  align-items:center ;
+  width: 50%;
+  margin-top: 20px;
+
+}
+
+input[type=text],
+input[type=email],
+input[type=url] {
+  display: inline-block;
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  border: 1px solid black;
+  border-radius: 2px;
+  font-size: 15px;
+  /* box-sizing: content-box; */
+}
+input[type=text]:hover,
+input[type=email]:hover,
+input[type=url]:hover {
+  display: inline-block;
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  border-left: 3px solid black;
+  border-radius: 5px;
+  font-size: 15px;
+}
+input[type=text]:focus,
+input[type=email]:focus,
+input[type=url]:focus {
+  display: inline-block;
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  border-left: 3px solid black;
+  border-radius: 5px;
+  font-size: 15px;
+}
+
+input[type=submit] {
+  width: 30%;
+  background-color: black;
+  color: white;
+  padding: 14px 20px;
+  margin: 8px 0;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  display: block;
+  font-size: 16px;
+}
+
+input[type=submit]:hover {
+  background-color: rgb(37, 37, 37);
+  color: white;
 }
