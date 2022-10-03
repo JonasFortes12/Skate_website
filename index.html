@@ -36,13 +36,22 @@
         <h1>Lançamentos</h1>
         <section class="content-desc">
             <div class="area-filme">
-                <iframe width="560" height="315" src="https://www.youtube.com/embed/CCZN2pWRDbU" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                <iframe width="560" height="315" src="https://www.youtube.com/embed/CCZN2pWRDbU"
+                    title="YouTube video player" frameborder="0"
+                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                    allowfullscreen></iframe>
             </div>
 
             <div class="area-descricao">
                 <div class="desc-sinopse">
                     <h4>SwirlJam by Carver Skateboards</h4>
-                    <p><strong>Sinopse:</strong> Carver has always been about surfing, and of capturing that joyous feeling of flow on a skateboard. The original since 1996, Carver has led the modern surfskate movement forward with its innovative truck systems, like the dual-axis C7 for a smooth and flowing ride, the reverse-kingpin CX for a quick and snappy ride, or the lower, lighter C5 for tricks and parks. And with a variety of surf-inspired shapes and concaves, along with our fast and grippy Roundhouse wheels, Carver delivers speed, power and flow so you can truly ‘Surf your Skate’.</p>
+                    <p><strong>Sinopse:</strong> Carver has always been about surfing, and of capturing that joyous
+                        feeling of flow on a skateboard. The original since 1996, Carver has led the modern surfskate
+                        movement forward with its innovative truck systems, like the dual-axis C7 for a smooth and
+                        flowing ride, the reverse-kingpin CX for a quick and snappy ride, or the lower, lighter C5 for
+                        tricks and parks. And with a variety of surf-inspired shapes and concaves, along with our fast
+                        and grippy Roundhouse wheels, Carver delivers speed, power and flow so you can truly ‘Surf your
+                        Skate’.</p>
                 </div>
 
                 <div class="desc-diretor">
@@ -96,8 +105,8 @@
         </div>
     </section>
 
-      <!-- EM DESTAQUE -->
-      <section id="destaque" class="destaque">
+    <!-- EM DESTAQUE -->
+    <section id="destaque" class="destaque">
         <div id="destaque-header" class="destaque-header">
             <h1>Em destaque</h1>
             <select name="categorias" id="categorias" class="">
@@ -131,7 +140,7 @@
             </article>
         </div>
         <div class="destaque-footer">
-           <button>Carregar mais</button>
+            <button>Carregar mais</button>
         </div>
     </section>
 
@@ -149,7 +158,10 @@
 
     <!-- --------------------------------------------------JONAS e ISAC forever----------------------------------- -->
 
-    <div class="container-flex" id="container-part03">
+    <div class="container-css-grid" id="container-part03">
+
+        <h2>Sugestão da Semana</h2>
+
         <div id="container-part03-video">
             <iframe width="1520" height="553" src="https://www.youtube.com/embed/yn-TfAzobDI"
                 title="Raw Run || Race Against the Storm" frameborder="0"
@@ -158,19 +170,32 @@
         </div>
 
         <div id="container-part03-desc">
-            <h3>Sobre</h3>
+            <h3>Sobre - Downhill Skate</h3>
             <p>
-                i'm think that i'm addicted to naked pictures and sitting talking bout bitches that we almost have, i
-                dont think i'm conscious of making monster out of womans i sponsor till it all goes bad We threw a
-                party, yeah, we threw a party
-                Bitches came over, yeah, we threw a party I was just calling 'cause they were just leaving Talk to me
-                please don't have much to believe in I need you right now, are you down to listen to me? Too many drinks
-                have been given to me I got some women that's living off me Paid for their flights and hotels, I'm
-                ashamed Bet that you know them, I won't say no names After a while, girl, they all seem the same I've
-                had sex four times this week, I'll explain
+                Modalidade onde o atleta desce uma ladeira fazendo manobras em alta velocidade. Como muitos devem saber,
+                um dos inventores do downhill-slide foi Clifford Coleman, um californiano de Berkeley que hoje tem 54
+                anos e continua praticando e muito o downhill-slide. Ele e seus amigos de sessão começaram a criar a
+                arte de deslizar (Slide) por volta de 1965, mas somente em 1975 é que se encontraram num evento e
+                puderam compartilhar suas experiências vividas nestes 10 anos e exibiram os primeiros slides em pé
+                (Stand-up) de que se tem notícia.
             </p>
             <h3>Editorial</h3>
-            <p>....</p>
+            <div id="container-part03-desc-editor" class="container-css-grid">
+                <img src="imgs/people.png" alt="pessoa">
+                <h4>Redação: Iris Costa </h4>
+                <img src="imgs/people.png" alt="pessoa">
+                <h4>Pesquisa: Isac Andrade </h4>
+                <img src="imgs/people.png" alt="pessoa">
+                <h4>Gerente Geral: Jonas Fortes </h4>
+            </div>
+            <div id="container-part03-desc-social" class="container-css-grid">
+                <h5>Redes Sociais</h5>
+                <img src="imgs/facebook.png" alt="pessoa">
+                <img src="imgs/instagram.png" alt="pessoa">
+                <img src="imgs/people.png" alt="pessoa">
+
+
+            </div>
         </div>
 
     </div>
@@ -259,21 +284,17 @@
     <div class="container-flex" id="container-part07">
         <h3>Cadastro de Vídeos</h3>
         <form action="">
-            
-            <input type="text" id="nome" 
-            name="firstname" placeholder="Nome Completo">
-            
-            <input type="email" id="email" 
-            name="firstname" placeholder="E-mail">     
-            
-            <input type="url" id="linkvideo" 
-            name="firstname" placeholder="link do Vídeo">
 
-            <input type="text" id="descricao" 
-            name="firstname" placeholder="Descreva Este Vídeo">
-          
+            <input type="text" id="nome" name="firstname" placeholder="Nome Completo">
+
+            <input type="email" id="email" name="firstname" placeholder="E-mail">
+
+            <input type="url" id="linkvideo" name="firstname" placeholder="link do Vídeo">
+
+            <input type="text" id="descricao" name="firstname" placeholder="Descreva Este Vídeo">
+
             <input type="submit" value="Enviar">
-          </form>
+        </form>
 
 
     </div>

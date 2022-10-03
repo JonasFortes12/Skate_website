@@ -192,7 +192,7 @@ a {
   height: 300px;
 }
 
-.desc-sinopse h4{
+.desc-sinopse h4 {
   margin-bottom: 10px;
 }
 
@@ -274,7 +274,7 @@ footer {
   align-items: center;
   margin-left: 25px;
   color: white;
-  
+
 }
 
 .logo-rodape {
@@ -323,11 +323,12 @@ footer {
 }
 
 
-.destaque-footer  {
+.destaque-footer {
   flex-basis: 100%;
   display: flex;
   justify-content: end;
 }
+
 .destaque-footer button {
   width: 300px;
   height: 30px;
@@ -336,12 +337,14 @@ footer {
   border: 1px solid black;
   cursor: pointer;
 }
-.destaque-footer button:hover{
+
+.destaque-footer button:hover {
   background-color: #E54318;
   border: 1px solid #E54318;
   color: white;
 
 }
+
 .destaque .destaque-header select {
   border: 2px solid #dcdcdb;
   border-radius: 3px;
@@ -390,11 +393,34 @@ footer {
 
 /* --------------------------------------------------JONAS e ISAC forever------------------------------------------------------------- */
 
+div#container-part03 {
+  grid-template-columns: auto auto;
+  grid-template-rows: auto auto;
+}
+
+div#container-part03 h2 {
+  grid-row-start: 1;
+  grid-column-start: 1;
+  grid-column-end: 3;
+  text-align: center;
+  margin-bottom: 30px;
+  font-size: 2rem;
+
+}
+
+div#container-part03 h3 {
+  grid-template-columns: auto auto;
+  grid-template-rows: auto auto;
+  font-size: 25px;
+  margin: 10px 0 10px 0;
+}
+
 div#container-part03-video {
   height: 65vh;
-  width: 60vw;
-  background-color: aquamarine;
+  width: 55vw;
   padding: 10px;
+  grid-row-start: 2;
+  grid-column-start: 1;
 }
 
 #container-part03-video iframe {
@@ -403,11 +429,65 @@ div#container-part03-video {
 }
 
 div#container-part03-desc {
-  height: 5vh;
+  height: 65vh;
   width: 40vw;
   padding: 10px;
-  background-color: blueviolet;
+  grid-row-start: 2;
+  grid-column-start: 2
 }
+
+div#container-part03-desc-editor {
+  grid-template-columns: 4% auto;
+  grid-template-rows: auto auto auto;
+  grid-column-gap: 2%;
+  grid-row-gap: 10%;
+}
+
+div#container-part03-desc-editor img {
+  height: 100%;
+  width: 100%;
+  align-self: center;
+  align-content: center;
+}
+
+div#container-part03-desc-editor h4 {
+  height: 60%;
+  width: 50%;
+  align-self: center;
+  align-content: center;
+  font-size: 18px;
+
+}
+
+div#container-part03-desc-social {
+  margin-top: 5%;
+  grid-template-columns: 5% 5% 5%;
+  grid-template-rows: auto auto;
+  grid-column-gap: 2%;
+  grid-row-gap: 15%;
+
+}
+
+div#container-part03-desc-social h5 {
+  grid-column-start: 1;
+  grid-column-start: 3;
+  height: 100%;
+  width: 100%;
+  grid-column-start: 1;
+  grid-column-end: 4;
+  font-size: 20px;
+
+}
+
+div#container-part03-desc-social img {
+  height: 100%;
+  width: 100%;
+  align-self: center;
+  align-content: center;
+}
+
+
+
 
 div#container-part04-novidades {
   height: fit-content;
@@ -521,7 +601,7 @@ div#container-part07 {
 div#container-part07 form {
   display: flex;
   flex-direction: column;
-  align-items:center ;
+  align-items: center;
   width: 50%;
   margin-top: 20px;
 
@@ -539,6 +619,7 @@ input[type=url] {
   font-size: 15px;
   /* box-sizing: content-box; */
 }
+
 input[type=text]:hover,
 input[type=email]:hover,
 input[type=url]:hover {
@@ -550,6 +631,7 @@ input[type=url]:hover {
   border-radius: 5px;
   font-size: 15px;
 }
+
 input[type=text]:focus,
 input[type=email]:focus,
 input[type=url]:focus {
