@@ -286,12 +286,13 @@ footer {
 /* DESTAQUES */
 
 .destaque {
-  width: 100%;
-  padding: 20px 20px;
+  width: 95vw;
+  padding: 1%;
   display: flex;
   flex-wrap: wrap;
   justify-content: space-around;
   gap: 20px;
+  /* border: 1px solid red; */
 }
 
 .destaque .destaque-header {
@@ -311,6 +312,7 @@ footer {
   display: flex;
   flex-basis: 70%;
   justify-content: space-between;
+ 
 }
 
 .destaque-content .destaque-content-item img {
@@ -355,6 +357,87 @@ footer {
 .destaque .destaque-header select:hover {
   background-color: #f8f8f8;
   cursor: pointer;
+}
+
+/* AVALIAÇÃO */
+
+.desc-avaliacao-star-on,
+.desc-avaliacao-star-off {
+  /* height: .9375rem; */
+}
+
+.area-descricao .desc-sinopse h4 {
+  font-weight: 500;
+  font-size: 2rem;
+}
+
+/* .desc-diretor ul li {
+    display: inline;
+    margin-right: 20px;
+} */
+
+.avaliacao {
+  display: flex;
+  flex-direction: column;
+  width: 95vw;
+  padding: 10px 10px;
+  /* border: 5px solid blue; */
+}
+
+.desc-diretor,
+.desc-elenco,
+.desc-avaliacao {
+  margin-top: 20px;
+}
+
+.desc-elenco>p,
+.desc-avaliacao>p {
+  margin-bottom: 20px;
+}
+
+.area-ava {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+  padding-top: 1%;
+  margin-bottom: 1%;
+}
+
+#card-ava {
+  display: flex;
+  align-items: top;
+  width: 400px;
+  justify-content: space-around;
+  margin: 0px 10px;
+  border: 1px solid #EEEEEE;
+  border-radius: 8px;
+}
+
+#card-ava img {
+  width: 80px;
+  margin: 10px;
+}
+
+.ava_button {
+  flex-basis: 100%;
+  display: flex;
+  justify-content: end;
+}
+
+.ava_button button {
+  width: 300px;
+  height: 30px;
+  border-radius: 8px;
+  background-color: white;
+  border: 1px solid black;
+  cursor: pointer;
+}
+
+.ava_button button:hover {
+  background-color: #E54318;
+  border: 1px solid #E54318;
+  color: white;
 }
 
 /*Estilo do Footer*/
