@@ -249,10 +249,10 @@ a {
 
 /* AVALIAÇÃO */
 
-.desc-avaliacao-star-on,
+/* .desc-avaliacao-star-on,
 .desc-avaliacao-star-off {
-  /* height: .9375rem; */
-}
+  height: .9375rem; 
+} */
 
 .area-descricao .desc-sinopse h4 {
   font-weight: 500;
@@ -620,6 +620,9 @@ div#container-part06-3 {
   box-sizing: border-box;
 }
 
+/* -------------------------  PARTE07  -------------- */
+
+
 div#container-part07 {
   align-items: center;
   justify-content: center;
@@ -637,9 +640,9 @@ div#container-part07 form {
 
 }
 
-/* input[type=text],
-input[type=email],
-input[type=url] {
+form#cadastro_videos input[type=text],
+form#cadastro_videos input[type=email],
+form#cadastro_videos input[type=url] {
   display: inline-block;
   width: 100%;
   padding: 12px 20px;
@@ -650,9 +653,9 @@ input[type=url] {
   box-sizing: content-box;
 }
 
-input[type=text]:hover,
-input[type=email]:hover,
-input[type=url]:hover {
+form#cadastro_videos input[type=text]:hover,
+form#cadastro_videos input[type=email]:hover,
+form#cadastro_videos input[type=url]:hover {
   display: inline-block;
   width: 100%;
   padding: 12px 20px;
@@ -662,19 +665,20 @@ input[type=url]:hover {
   font-size: 15px;
 }
 
-input[type=text]:focus,
-input[type=email]:focus,
-input[type=url]:focus {
+form#cadastro_videos input[type=text]:focus,
+form#cadastro_videos input[type=email]:focus,
+form#cadastro_videos input[type=url]:focus {
   display: inline-block;
   width: 100%;
   padding: 12px 20px;
   margin: 8px 0;
-  border-left: 3px solid black;
+  border-left: 3px solid #E54318;
+  outline-color: #E54318;
   border-radius: 5px;
   font-size: 15px;
 }
 
-input[type=submit] {
+form#cadastro_videos input[type=submit] {
   width: 30%;
   background-color: black;
   color: white;
@@ -687,7 +691,7 @@ input[type=submit] {
   font-size: 16px;
 }
 
-input[type=submit]:hover {
-  background-color: rgb(37, 37, 37);
+form#cadastro_videos input[type=submit]:hover {
+  background-color: #E54318;
   color: white;
-} 
+} */
