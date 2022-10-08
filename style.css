@@ -430,7 +430,7 @@ div#container-part03-desc-social img {
   align-content: center;
 }
 
-
+/* ---------------------------------- PARTE 04 --------------------------------------- */
 
 
 div#container-part04-novidades {
@@ -478,6 +478,23 @@ div#container-part04-propagandas {
   padding: 10px;
   margin: 5px;
   margin-top: 2%;
+}
+
+div#container-part04-propagandas img{
+  height: 30%;
+  width: 80%;
+  padding-left: 10%;
+  animation: go-back 0.7s infinite alternate;
+}
+
+@keyframes go-back {
+  from {
+    transform: scale(100%);
+    
+  }
+  to {
+    transform: scale(102%);
+  }
 }
 
 /* -------------------------------------------------- PARTE 05 ------------------------------------------------------------- */
@@ -694,4 +711,4 @@ form#cadastro_videos input[type=submit] {
 form#cadastro_videos input[type=submit]:hover {
   background-color: #E54318;
   color: white;
-} */
+}
