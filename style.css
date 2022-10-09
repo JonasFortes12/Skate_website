@@ -531,6 +531,8 @@ div#container-part04-propagandas {
 div#container-part06 {
   width: fit-content;
   margin: 3%;
+  margin-top: 5%;
+  margin-bottom: 5%;
 }
 
 div#container-part06-1 {
@@ -694,4 +696,4 @@ form#cadastro_videos input[type=submit] {
 form#cadastro_videos input[type=submit]:hover {
   background-color: #E54318;
   color: white;
-} */
+} 
