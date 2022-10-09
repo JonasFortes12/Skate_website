@@ -528,9 +528,10 @@ div#container-part04-novidades {
 
 div#container-part04-novidades h1 {
   font-size: 2rem;
-  margin-bottom: 5%;
+  margin-bottom: 4%;
   text-align: center;
 }
+
 
 div#container-part04-novidades-1 div,
 div#container-part04-novidades-2 div,
@@ -541,26 +542,44 @@ div#container-part04-novidades-3 div {
 div#container-part04-novidades-1 img,
 div#container-part04-novidades-2 img,
 div#container-part04-novidades-3 img {
-  height: 15%;
-  width: 15%;
-  padding: 1%;
+  height: 100%;
+  width: 20%;
+  padding-top: 1%;
+  padding-right: 5%;
 }
 
-div#container-parte04-novidades-materia {
-  font: normal 20px;
-  height: 80%;
+div.materia h4{
+  font-size: large;
+  margin-bottom: 2%;
+}
+
+div.materia p{
+  font-size: medium;
 }
 
 div#container-parte04-novidades-tags {
-  font: normal 20px;
-  height: 20%;
-  padding-top: 5%;
+  padding-top: 9%;
+}
+
+div#container-parte04-novidades-tags button#button-parte04 {
+  font-size:  small;
+  background-color: black;
+  color: white;
+  border-radius: 10px;
+  border: none;
+  cursor: pointer;
+  padding: 1%;
+  width: fit-content;
+
+}
+div#container-parte04-novidades-tags button#button-parte04:hover{
+  background-color:#E54318;
 }
 
 hr.solid {
-  border-top: 3px solid #bbb;
-  margin-top: 4%;
-  margin-bottom: 4%;
+  border-top: 3px solid #E54318;
+  margin-top: 2%;
+  margin-bottom: 2%;
 }
 
 div#container-part04-propagandas {
@@ -568,11 +587,11 @@ div#container-part04-propagandas {
   width: fit-content;
   padding: 10px;
   margin: 5px;
-  margin-top: 2%;
+  margin-top: 5%;
 }
 
 div#container-part04-propagandas img {
-  height: 30%;
+  height: 45%;
   width: 90%;
   animation: go-back 0.7s infinite alternate;
 }
@@ -588,15 +607,6 @@ div#container-part04-propagandas img {
   }
 }
 
-#button-parte04 {
-  background-color: #bbb;
-  color: black;
-  border-radius: 10px;
-  border: none;
-  cursor: pointer;
-  padding: 1%;
-  width: fit-content;
-}
 
 
 
