@@ -440,7 +440,9 @@ div#container-part03-desc-social img {
 
 /* ---------------------------------- PARTE 04 --------------------------------------- */
 
-
+div#container-part04 {
+  margin-top: 10%;
+}
 div#container-part04-novidades {
   height: fit-content;
   width: 60vw;
@@ -453,6 +455,8 @@ div#container-part04-novidades {
 
 div#container-part04-novidades h1 {
   font-size: 2rem;
+  margin-bottom: 5%;
+  text-align: center;
 }
 
 div#container-part04-novidades-1 div,
@@ -482,6 +486,8 @@ div#container-parte04-novidades-tags {
 
 hr.solid {
   border-top: 3px solid #bbb;
+  margin-top: 4%;
+  margin-bottom: 4%;
 }
 
 div#container-part04-propagandas {
@@ -494,8 +500,7 @@ div#container-part04-propagandas {
 
 div#container-part04-propagandas img {
   height: 30%;
-  width: 80%;
-  padding-left: 10%;
+  width: 90%;
   animation: go-back 0.7s infinite alternate;
 }
 
@@ -510,8 +515,6 @@ div#container-part04-propagandas img {
   }
 }
 
-/* -------------------------------------------------- PARTE 05 ------------------------------------------------------------- */
-
 #button-parte04 {
   background-color: #bbb;
   color: black;
@@ -523,6 +526,9 @@ div#container-part04-propagandas img {
 }
 
 
+
+/* -------------------------------------------------- PARTE 05 ------------------------------------------------------------- */
+
 #container-part05 {
   display: flex;
   align-items: center;
@@ -533,28 +539,42 @@ div#container-part04-propagandas img {
 
 #container-part05 h1 {
   font-size: 2rem;
+  margin-top: 5%;
+  margin-bottom: 3%;
 }
 
 #container-part05 div.container-flex {
-  width: 90vw;
+  width: 50vw;
   flex-direction: column;
   padding: 10px;
   align-items: center;
 }
 
-#container-part05 div:hover {
-  width: 90vw;
+#container-part05 div.container-flex:hover {
+  width: 50vw;
   flex-direction: column;
   padding: 10px;
   align-items: center;
-  background-color: gray;
+  background-color: #e2ab9c;
   border-left-style: solid;
   border-radius: 10px;
+}
+
+#container-part05 div.container-flex p {
+
+  font-size: medium;
+  font-weight: 600;
+
 }
 
 #container-part05 div.container-flex img {
   height: 40px;
 }
+
+
+
+
+/* -------------------------  PARTE06  -------------- */
 
 #container-part06 div.container-flex {
   justify-content: center;
@@ -668,6 +688,8 @@ div#container-part07 {
 
 div#container-part07 h1 {
   font-size: 2rem;
+  margin-top: 10%;
+  margin-bottom: 2%;
 }
 
 div#container-part07 form {
@@ -675,7 +697,7 @@ div#container-part07 form {
   flex-direction: column;
   align-items: center;
   width: 50%;
-  margin-top: 20px;
+  margin-bottom: 3%;
 
 }
 
