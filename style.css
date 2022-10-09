@@ -404,6 +404,7 @@ div#container-part03 h1 {
   grid-column-start: 1;
   grid-column-end: 3;
   text-align: center;
+  margin-top: 10%;
   margin-bottom: 30px;
   font-size: 2rem;
 
@@ -462,6 +463,7 @@ div#container-part03-desc-editor h4{
   grid-column-gap: 2%;
   grid-row-gap: 10%;
   font-size: medium;
+  margin-top: 1%;
 }
 
 div#container-part03-desc-editor img {
@@ -492,12 +494,21 @@ div#container-part03-desc-social h5 {
 
 }
 
-div#container-part03-desc-social img {
+div#container-part03-desc-social svg {
   height: 100%;
-  width: 50%;
+  width: 73%;
   align-self: center;
   align-content: center;
   align-items: center;
+}
+
+div#container-part03-desc-social svg:hover {
+  height: 100%;
+  width: 73%;
+  align-self: center;
+  align-content: center;
+  align-items: center;
+  fill: #E54318;
 }
 
 /* ---------------------------------- PARTE 04 --------------------------------------- */
@@ -746,12 +757,12 @@ div#container-part07 {
   flex-direction: column;
   height: 90vh;
   width: 96vw;
+  margin-top: 10%;
 }
 
 div#container-part07 h1 {
   font-size: 2rem;
-  margin-top: 10%;
-  margin-bottom: 2%;
+  margin-bottom: 1%;
 }
 
 div#container-part07 form {
