@@ -364,7 +364,12 @@ div#container-part03 h3 {
   grid-template-columns: auto auto;
   grid-template-rows: auto auto;
   font-size: 25px;
-  margin: 10px 0 10px 0;
+  margin: 0px 0 10px 0;
+}
+
+#container-part03-video iframe {
+  height: 100%;
+  width: 100%;
 }
 
 div#container-part03-video {
@@ -375,10 +380,6 @@ div#container-part03-video {
   grid-column-start: 1;
 }
 
-#container-part03-video iframe {
-  height: 100%;
-  width: 100%;
-}
 
 div#container-part03-desc {
   height: 65vh;
@@ -388,11 +389,30 @@ div#container-part03-desc {
   grid-column-start: 2
 }
 
+div#container-part03-desc p {
+  font-size: medium;
+  text-justify: distribute-all-lines;
+}
+
+div#container-part03-desc h3#editorial {
+  margin-top: 20px;
+}
+
+
+
 div#container-part03-desc-editor {
   grid-template-columns: 4% auto;
   grid-template-rows: auto auto auto;
   grid-column-gap: 2%;
   grid-row-gap: 10%;
+}
+
+div#container-part03-desc-editor h4{
+  grid-template-columns: 4% auto;
+  grid-template-rows: auto auto auto;
+  grid-column-gap: 2%;
+  grid-row-gap: 10%;
+  font-size: medium;
 }
 
 div#container-part03-desc-editor img {
@@ -402,18 +422,10 @@ div#container-part03-desc-editor img {
   align-content: center;
 }
 
-div#container-part03-desc-editor h4 {
-  height: 60%;
-  width: 50%;
-  align-self: center;
-  align-content: center;
-  font-size: 18px;
-
-}
 
 div#container-part03-desc-social {
-  margin-top: 5%;
-  grid-template-columns: 5% 5% 5%;
+  margin-top: 7%;
+  grid-template-columns: 10% 10% 10%;
   grid-template-rows: auto auto;
   grid-column-gap: 2%;
   grid-row-gap: 15%;
@@ -433,9 +445,10 @@ div#container-part03-desc-social h5 {
 
 div#container-part03-desc-social img {
   height: 100%;
-  width: 100%;
+  width: 50%;
   align-self: center;
   align-content: center;
+  align-items: center;
 }
 
 /* ---------------------------------- PARTE 04 --------------------------------------- */
