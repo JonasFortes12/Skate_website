@@ -631,6 +631,10 @@ div#container-part04-propagandas img {
   flex-direction: column;
   padding: 10px;
   align-items: center;
+  border-radius: 10px;
+  color: black;
+  font-size: medium;
+  font-weight: 500;
 }
 
 #container-part05 div.container-flex:hover {
@@ -639,16 +643,20 @@ div#container-part04-propagandas img {
   padding: 10px;
   align-items: center;
   background-color: #e2ab9c;
-  border-left-style: solid;
+  border-left-style: solid ;
+  border-right-style: solid ;
+  border-color: #E54318;
   border-radius: 10px;
+  font-weight: bold;
 }
+
 
 #container-part05 div.container-flex p {
 
   font-size: medium;
-  font-weight: 600;
-
 }
+
+
 
 #container-part05 div.container-flex img {
   height: 40px;
@@ -658,6 +666,12 @@ div#container-part04-propagandas img {
 
 
 /* -------------------------  PARTE06  -------------- */
+
+h1#comunidade-titulo{
+  text-align: center;
+  font-size: 2rem;
+  margin-top: 7%;
+}
 
 #container-part06 div.container-flex {
   justify-content: center;
@@ -669,6 +683,15 @@ div#container-part06 {
   width: fit-content;
   margin: 3%;
 }
+
+div#container-part06 h4#comentario_titulo{
+  text-align: center;
+} 
+
+div#container-part06 h4#comentario_form{
+  text-align: center;
+} 
+
 
 div#container-part06-1 {
   height: 80vh;
@@ -735,8 +758,10 @@ div#container-part06-3 {
   justify-content: center;
 }
 
+
+
 .parte06-texto,
-select {
+select#categorias {
   width: 100%;
   padding: 12px 20px;
   margin: 8px 0;
@@ -746,8 +771,30 @@ select {
   box-sizing: border-box;
 }
 
+form#comentarios_form select {
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+
+form#comentarios_form input[type=text]:hover{
+  border-left: 3px solid black;
+  border-radius: 5px;
+}
+
+form#comentarios_form input[type=text]:focus, form#comentarios_form select:focus{
+  outline-color: #E54318;
+  border-left: 3px solid #E54318;
+
+}
+
+
 .submit-parte06 {
-  background-color: #45a049;
+  background-color: black;
   color: white;
   width: 100%;
   padding: 12px 20px;
@@ -756,6 +803,9 @@ select {
   border: 1px solid #ccc;
   border-radius: 4px;
   box-sizing: border-box;
+}
+.submit-parte06:hover {
+  background-color: #E54318;
 }
 
 /* -------------------------  PARTE07  -------------- */
