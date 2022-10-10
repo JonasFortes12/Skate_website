@@ -686,7 +686,7 @@ div#container-part04-propagandas img {
 div.modal {
   display: grid;
   grid-template-columns: auto;
-  grid-template-rows:3% auto;
+  grid-template-rows:5% auto;
 
   align-content: center;
   justify-content: center;
@@ -710,9 +710,24 @@ div.modal iframe{
   align-self: center;
 }
 
-div.modal a:hover{
-  color: #E54318;
+button.button-modal{
+  font-size: small;
+  background-color: black;
+  color: white;
+  border-radius: 10px;
+  border: none;
+  cursor: pointer;
+  padding: 1%;
+  width: fit-content;
 }
+
+button.button-modal:hover{
+  background-color: #E54318;
+}
+
+/* div.modal a:hover{
+  color: #E54318;
+} */
 
 div.modal:target {
   opacity: 1;
