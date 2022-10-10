@@ -6,15 +6,12 @@
   padding: 0;
 }
 
-
 body {
   font-size: 20px;
   height: 300vh;
   display: flex;
   flex-direction: column;
   justify-content: space-between;
-
-  font-family: 'Racing Sans One', cursive;
   font-family: 'Raleway', sans-serif;
   color: black;
 
@@ -22,8 +19,6 @@ body {
 
 p {
   font-style: normal;
-  /* font-family: Arial, Helvetica, sans-serif; */
-  /* font-weight: 900; */
   font-size: 12px;
 }
 
@@ -42,7 +37,6 @@ p {
 header {
   padding-top: 2%;
   padding-bottom: 2%;
-  /* height: 10%; */
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -54,7 +48,6 @@ nav {
   align-items: center;
   gap: 1em;
   color: white;
-  /* font-family: Arial, Helvetica, sans-serif; */
   font-size: 18px;
   cursor: pointer;
 }
@@ -133,6 +126,10 @@ input.input-search:focus {
   margin-bottom: 10px;
 }
 
+.desc-sinopse p{
+  font-size: 18px;
+}
+
 .dots {
   margin: 30px auto;
   justify-content: center;
@@ -141,7 +138,6 @@ input.input-search:focus {
 
 .dots img {
   width: 10px;
-
 }
 
 .area-descricao {
@@ -149,39 +145,9 @@ input.input-search:focus {
 }
 
 .area-descricao h4 {
-  /* font-weight: 500; */
   font-size: 2rem;
 }
 
-.desc-diretor {
-  display: flex;
-  justify-content: space-between;
-  flex-direction: row;
-  align-items: center;
-}
-
-.list-bars,
-.list-bars ul,
-.list-bars ol {
-  list-style: none;
-}
-
-.list-bars li {
-  display: inline;
-  padding-right: 10px;
-}
-
-.list-bars li:not(:first-child) {
-  border-left: 1.5px solid black;
-  padding-left: 10px;
-}
-
-.desc-diretor ul li {
-  display: inline;
-  margin-right: 20px;
-}
-
-.desc-diretor,
 .desc-avaliacao {
   margin: 10px 0;
 }
@@ -191,63 +157,63 @@ input.input-search:focus {
   max-width: 20px;
 }
 
-.desc-elenco p,
 .desc-avaliacao p {
   font-size: 16px;
-
 }
 
 /* -------------------------------------------------- DESTAQUES ------------------------------------------------------------- */
 .destaque {
-  width: 95vw;
-  padding: 1%;
+  width: 100%;
   display: flex;
-  flex-wrap: wrap;
-  justify-content: space-around;
-  gap: 20px;
-  /* border: 1px solid red; */
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
 }
 
 .destaque .destaque-header {
-  background-color: none;
-  padding: 0;
-  flex-basis: 100%;
+  width: 100%;
   display: flex;
+  justify-content: center;
   align-items: center;
+  margin-bottom: 2%;
   justify-content: space-between;
 }
 
 .destaque .destaque-header h1 {
-  font-size: 2rem;
+  margin-left: 2%;
+}
+
+#selecaoCategorias {
+  margin-right: 2%;
 }
 
 .destaque-content {
   display: flex;
-  flex-basis: 70%;
-  justify-content: space-between;
-
+  justify-content: center;
+  width: 90%;
+  align-items: center;
 }
 
 .destaque-content .destaque-content-item img {
-  max-width: 350px;
+  max-width: 280px;
   justify-content: space-around;
   margin: 0px 10px;
   border: 1px solid #EEEEEE;
   border-radius: 8px;
-
 }
 
-
 .destaque-footer {
-  flex-basis: 100%;
+  width: 100%;
   display: flex;
   justify-content: end;
+  margin-top: 2%;
 }
 
 .destaque-footer button {
   width: 300px;
   height: 30px;
   border-radius: 8px;
+  margin-right: 4%;
   background-color: white;
   border: 1px solid black;
   cursor: pointer;
@@ -257,7 +223,6 @@ input.input-search:focus {
   background-color: #E54318;
   border: 1px solid #E54318;
   color: white;
-
 }
 
 .destaque .destaque-header select {
@@ -272,29 +237,15 @@ input.input-search:focus {
   cursor: pointer;
 }
 
-/* AVALIAÇÃO */
-
-/* .desc-avaliacao-star-on,
-.desc-avaliacao-star-off {
-  height: .9375rem; 
-} */
-
 .area-descricao .desc-sinopse h4 {
-  /* font-weight: 500; */
   font-size: larger;
 }
-
-/* .desc-diretor ul li {
-    display: inline;
-    margin-right: 20px;
-} */
 
 .avaliacao {
   display: flex;
   flex-direction: column;
   width: 95vw;
   padding: 10px 10px;
-  /* border: 5px solid blue; */
 }
 
 .desc-diretor,
