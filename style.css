@@ -40,7 +40,9 @@ p {
 
 /* -------------------------------------------------- HEADER ------------------------------------------------------------- */
 header {
-  height: 3%;
+  padding-top: 2%;
+  padding-bottom: 2%;
+  /* height: 10%; */
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -59,6 +61,7 @@ nav {
 
 nav a:hover {
   color: #E54318;
+  font-weight: bold;
 }
 
 a {
@@ -66,19 +69,33 @@ a {
   color: white;
 }
 
-.logo {
-  width: 100%;
-  max-width: 40px;
-  margin-left: 30px;
+img.logo {
+  width: 15%;
+  height: 100%;
+  margin-left: 3%;
 }
 
-.input-search {
-  display: flex;
-  height: 30px;
-  border-radius: 8px;
-  color: black;
-  background-color: white;
-  margin-right: 30px;
+input.input-search {
+  display: inline-block;
+  width: 15%;
+  padding: 12px 20px;
+  margin-right: 3%;
+  border: 3px solid black;
+  border-radius: 5px;
+  font-size: 15px;
+  box-sizing: content-box;
+}
+
+input.input-search:hover {
+  padding: 12px 20px;
+  border: 3px solid #E54318;
+}
+
+input.input-search:focus {
+  padding: 12px 20px;
+  border: 3px solid #E54318;
+  outline-color: #E54318;
+  outline: none;
 }
 
 /* -------------------------------------------------- LANÇAMENTOS ------------------------------------------------------------- */
@@ -384,7 +401,7 @@ a {
 
 /* CSS para a parte livre 1 */
 
-.video-entrevista{
+.video-entrevista {
   width: 320px;
   height: 180px;
 }
@@ -457,7 +474,7 @@ div#container-part03-desc-editor {
   grid-row-gap: 10%;
 }
 
-div#container-part03-desc-editor h4{
+div#container-part03-desc-editor h4 {
   grid-template-columns: 4% auto;
   grid-template-rows: auto auto auto;
   grid-column-gap: 2%;
@@ -518,6 +535,7 @@ div#container-part04 {
   background-color: #e1e1e1;
   box-shadow: 10px 10px #E54318;
 }
+
 div#container-part04-novidades {
   height: fit-content;
   width: 60vw;
@@ -550,12 +568,12 @@ div#container-part04-novidades-3 img {
   padding-right: 5%;
 }
 
-div.materia h4{
+div.materia h4 {
   font-size: large;
   margin-bottom: 2%;
 }
 
-div.materia p{
+div.materia p {
   font-size: medium;
 }
 
@@ -564,7 +582,7 @@ div#container-parte04-novidades-tags {
 }
 
 div#container-parte04-novidades-tags button#button-parte04 {
-  font-size:  small;
+  font-size: small;
   background-color: black;
   color: white;
   border-radius: 10px;
@@ -574,8 +592,9 @@ div#container-parte04-novidades-tags button#button-parte04 {
   width: fit-content;
 
 }
-div#container-parte04-novidades-tags button#button-parte04:hover{
-  background-color:#E54318;
+
+div#container-parte04-novidades-tags button#button-parte04:hover {
+  background-color: #E54318;
 }
 
 hr.solid {
@@ -645,8 +664,8 @@ div#container-part04-propagandas img {
   padding: 10px;
   align-items: center;
   background-color: #e2ab9c;
-  border-left-style: solid ;
-  border-right-style: solid ;
+  border-left-style: solid;
+  border-right-style: solid;
   border-color: #E54318;
   border-radius: 10px;
   font-weight: bold;
@@ -669,7 +688,7 @@ div#container-part04-propagandas img {
 
 /* -------------------------  PARTE06  -------------- */
 
-h1#comunidade-titulo{
+h1#comunidade-titulo {
   text-align: center;
   font-size: 2rem;
   margin-top: 7%;
@@ -688,13 +707,13 @@ div#container-part06 {
   margin-bottom: 5%;
 }
 
-div#container-part06 h4#comentario_titulo{
+div#container-part06 h4#comentario_titulo {
   text-align: center;
-} 
+}
 
-div#container-part06 h4#comentario_form{
+div#container-part06 h4#comentario_form {
   text-align: center;
-} 
+}
 
 
 div#container-part06-1 {
@@ -785,12 +804,13 @@ form#comentarios_form select {
   box-sizing: border-box;
 }
 
-form#comentarios_form input[type=text]:hover{
+form#comentarios_form input[type=text]:hover {
   border-left: 3px solid black;
   border-radius: 5px;
 }
 
-form#comentarios_form input[type=text]:focus, form#comentarios_form select:focus{
+form#comentarios_form input[type=text]:focus,
+form#comentarios_form select:focus {
   outline-color: #E54318;
   border-left: 3px solid #E54318;
 
@@ -808,6 +828,7 @@ form#comentarios_form input[type=text]:focus, form#comentarios_form select:focus
   border-radius: 4px;
   box-sizing: border-box;
 }
+
 .submit-parte06:hover {
   background-color: #E54318;
 }
@@ -892,4 +913,31 @@ form#cadastro_videos input[type=submit] {
 form#cadastro_videos input[type=submit]:hover {
   background-color: #E54318;
   color: white;
+}
+
+/* -------------------------  Rodape  -------------- */
+
+
+footer.footer {
+  display: flex;
+  flex-direction: row;
+  padding-top: 1%;
+  padding-bottom: 1%;
+  justify-content: center;
+  align-items: center;
+  background-color: black;
+
+
+  
+}
+
+footer.footer h5{
+  color: #ccc;
+  padding-left: 2%;
+}
+
+img.logo-rodape {
+  width: 15%;
+  height: 100%;
+  margin-right: 2%;
 }
