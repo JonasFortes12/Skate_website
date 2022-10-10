@@ -723,6 +723,7 @@ h1#comunidade-titulo {
 
 div#container-part06 {
   width: fit-content;
+  height: 100%;
   margin: 3%;
   margin-top: 5%;
   margin-bottom: 5%;
@@ -737,15 +738,30 @@ div#container-part06 h4#comentario_form {
 }
 
 div#container-part06-1 {
-  height: 80vh;
+  height: 100%;
   width: 25%;
+  margin-right: 3%;
 }
 
 div#container-parte06-1-1 {
-  height: 20%;
+  height: auto;
+  padding: 2%;
   align-items: flex-end;
-  margin-left: 10%;
+  
+  justify-content: space-between;
+
+  margin: 15% 0% 15% 0%;
+
+  padding: 5%;
+  
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.07), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
+
+/* div#container-parte06-1-1 div {
+
+  align-items: center;
+  
+} */
 
 div#container-parte06-1-1-1 {
   width: 20%;
