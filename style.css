@@ -200,8 +200,14 @@ input.input-search:focus {
   margin: 0px 10px;
   border: 1px solid #EEEEEE;
   border-radius: 8px;
+  margin-top: 1vh;
+  box-shadow: 0px 7px 17px 0px rgba(0,0,0,0.12);
 }
+.destaque-content-item img:hover{
+  margin-top: 0vh;
+  box-shadow: -1px 7px 19px 1px rgba(0,0,0,0.42);
 
+}
 .destaque-footer {
   font-family: Arial;
   color: #FFFFFF;
@@ -286,6 +292,14 @@ input.input-search:focus {
   margin: 0px 10px;
   border: 1px solid #EEEEEE;
   border-radius: 8px;
+  padding-top: 3vh;
+  margin-top: 1vh;
+  box-shadow: 0px 7px 17px 0px rgba(0,0,0,0.12);
+}
+
+#card-ava:hover{
+  margin-top: 0vh;
+  box-shadow: -1px 7px 19px 1px rgba(0,0,0,0.42);
 }
 
 #txt p{
