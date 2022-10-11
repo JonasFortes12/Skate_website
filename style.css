@@ -517,9 +517,10 @@ div#container-part03-desc-social svg:hover {
 /* ---------------------------------- PARTE 04 --------------------------------------- */
 
 div#container-part04 {
-  margin-top: 10%;
+  margin: 10% 0% 10% 0%;
   background-color: #f4f4f4;
   box-shadow: 10px 10px #E54318;
+  align-self: center;
 }
 
 div#container-part04-novidades {
@@ -541,14 +542,15 @@ div#container-part04-novidades h1 {
 div#container-part04-novidades-1 div,
 div#container-part04-novidades-2 div,
 div#container-part04-novidades-3 div {
-  margin-top: 1%;
+  margin: 1% 0% 0% 0%;
+
 }
 
 div#container-part04-novidades-1 img,
 div#container-part04-novidades-2 img,
 div#container-part04-novidades-3 img {
   height: 100%;
-  width: 20%;
+  width: 25%;
   padding-top: 1%;
   padding-right: 5%;
 }
@@ -592,9 +594,7 @@ hr.solid {
 div#container-part04-propagandas {
   height: fit-content;
   width: fit-content;
-  padding: 10px;
-  margin: 5px;
-  margin-top: 5%;
+  align-self: center;
 }
 
 div#container-part04-propagandas img {
@@ -724,9 +724,7 @@ h1#comunidade-titulo {
 div#container-part06 {
   width: fit-content;
   height: 100%;
-  margin: 3%;
-  margin-top: 5%;
-  margin-bottom: 5%;
+  margin: 5% 3% 0% 3%;
 }
 
 div#container-part06 h4#comentario_titulo {
@@ -750,7 +748,7 @@ div#container-parte06-1-1 {
   
   justify-content: space-between;
 
-  margin: 15% 0% 15% 0%;
+  margin: 5% 0% 15% 0%;
 
   padding: 5%;
   
@@ -783,9 +781,8 @@ div#container-parte06-1-1-2 {
 
 #container-part06-2 {
   width: 50%;
-  height: 75%;
-  margin-right: 5%;
-
+  height:65%;
+  margin: 0% 3% 0% 0%;
 }
 
 div#container-part06-2-1 {
@@ -873,7 +870,7 @@ div#container-part07 {
   flex-direction: column;
   height: 90vh;
   width: 96vw;
-  margin-top: 10%;
+  margin-top: 5%;
 }
 
 div#container-part07 h1 {
