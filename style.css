@@ -306,7 +306,11 @@ input.input-search:focus {
 
 /* Entrevistas feito pelo jp */
 .entrevistas {
-  background-color: #e1e1e1;
+  background-color: #000000;
+  color: white;
+  height: 120vh;
+  padding-bottom: 12vh;
+  padding-top: 3vh;
 }
 
 .entrevistas-videos {
@@ -316,11 +320,21 @@ input.input-search:focus {
   padding: 10px;
   gap: 5px;
   padding: 20px 90px 80px;
+  
+
+}
+
+.sombra-item{
+  border: 1px solid white;
 }
 
 .entrevistas-videos iframe {
   width: 320px;
-  height: 180px;
+  height: 180px;  
+}
+
+.entrevistas-videos h3{
+  color: #E54318;
 }
 
 .css-button {
@@ -339,6 +353,39 @@ input.input-search:focus {
   margin-left: 76vw;
 }
 
+.video-entrevista {
+  width: 320px;
+  height: 180px;
+}
+
+.titulo-entrevista{
+  margin-top: 3vh;
+  margin-left: 8.8vw;
+  font-size: 30px;
+  font-weight: bold;
+  padding-left: 5px;
+  border-left: 2px solid #E54318;
+  background-color: #070707;
+  width: 80.7vw;
+}
+
+.descricao-item{
+  margin-top: 0px;
+  padding: 8px;
+  background-color: #0f0f0f;
+  border-left: 2px solid #E54318;
+  border-radius: 0px 0px 20px 0px;
+  margin-top: 1vh;
+  position: absolute;
+  width: 22.8vw;
+  margin-top: 1vh;
+}
+
+.descricao-item:hover{
+  margin-top: 0vh;
+  box-shadow: 0px 8px 0px 0px #E54318;
+  }
+
 .comunidade {
   display: flex;
   flex-direction: row;
@@ -349,14 +396,26 @@ input.input-search:focus {
   padding: 10vh 5vw 10vh;
 }
 
-
-/* CSS para a parte livre 1 */
-
-.video-entrevista {
-  width: 320px;
-  height: 180px;
+.botao-carregar{
+  position: absolute;
+  margin-left: 75.3vw;
+  margin-top: 46vh;
+  border: none;
+  border: 1px solid white;
+  background-color: black;
+  color: white;
+  font-size: 15px;
+  padding: 6px 30px 6px;
+  border-radius: 10px;
+  font-family: 'Raleway', sans-serif; 
 }
 
+.botao-carregar:hover{
+  background-color: #E54318;
+  border: 1px solid #E54318;
+}
+
+/* CSS para a parte livre 1 */
 
 
 
