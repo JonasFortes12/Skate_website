@@ -209,7 +209,7 @@ input.input-search:focus {
 
 }
 .destaque-footer {
-  font-family: Arial;
+  /* font-family: Arial; */
   color: #FFFFFF;
   font-size: 16px;
   border-radius: 6px;
@@ -217,11 +217,18 @@ input.input-search:focus {
   cursor: pointer;
   display: inline-flex;
   align-items: center;
+  justify-content: center;
   text-align: center;
-  width: 14vw;
+  width: 10vw;
   margin-top: 2vh;
-  margin-left: 76vw;
+  margin-left: 78%;
 }
+.destaque-footer:hover {
+  color: #FFFFFF;
+  background-color: #E54318;
+  
+}
+
 
 .destaque-footer button {
   width: 300px;
@@ -312,7 +319,7 @@ input.input-search:focus {
 }
 
 .ava_button {
-  font-family: Arial;
+  /* font-family: Arial; */
   color: #FFFFFF;
   font-size: 16px;
   border-radius: 6px;
@@ -320,11 +327,17 @@ input.input-search:focus {
   cursor: pointer;
   display: inline-flex;
   align-items: center;
+  justify-content: center;
   text-align: center;
-  width: 14vw;
-  margin-top: 1vh;
-  margin-left: 78.5vw;
-  margin-bottom: 2vh
+  width: 10vw;
+  margin-top: 2vh;
+  margin-left: 85%;
+}
+
+.ava_button:hover {
+
+  color: #FFFFFF;
+  background-color:#E54318 ;
 }
 
 .ava_button button {
@@ -457,7 +470,7 @@ input.input-search:focus {
 
 
 
-/* -------------------------------------------------- PARTE 03 ------------------------------------------------------------- */
+/* -------------------------------------------------- PARTE 03: Sugestão da Semana ------------------------------------------------------------- */
 
 div#container-part03 {
   grid-template-columns: auto auto;
@@ -573,7 +586,7 @@ div#container-part03-desc-social svg:hover {
   fill: #E54318;
 }
 
-/* ---------------------------------- PARTE 04 --------------------------------------- */
+/* ---------------------------------- PARTE 04: Novidades --------------------------------------- */
 
 div#container-part04 {
   margin: 7% 0% 7% 0%;
@@ -673,7 +686,7 @@ div#container-part04-propagandas img {
   }
 }
 
-/* -------------------------------------------------- PARTE 05 ------------------------------------------------------------- */
+/* -------------------------------------------------- PARTE 05: Lista de Favoritos ------------------------------------------------------------- */
 
 #container-part05 {
   display: flex;
@@ -766,7 +779,7 @@ div.modal:target {
   pointer-events: auto;
 }
 
-/* -------------------------  PARTE06  -------------- */
+/* -------------------------  PARTE06: Comunidade de Vídeos -------------- */
 
 h1#comunidade-titulo {
   text-align: center;
@@ -921,7 +934,7 @@ form#comentarios_form select:focus {
   background-color: #E54318;
 }
 
-/* -------------------------  PARTE07  -------------- */
+/* -------------------------  PARTE07: Cadastro de Vídeos  -------------- */
 
 div#container-part07 {
   align-items: center;
